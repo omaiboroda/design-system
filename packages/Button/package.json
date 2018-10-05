@@ -1,6 +1,6 @@
 {
-  "name": "omaiboroda-design-system-h1",
-  "version": "0.0.6",
+  "name": "omaiboroda-design-system-button",
+  "version": "0.0.1",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "peerDependencies": {
+  "dependencies": {
     "react": "^16.5.2"
   }
 }
