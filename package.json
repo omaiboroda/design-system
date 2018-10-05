@@ -16,6 +16,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build",
     "build": "lerna exec -- babel src -d dist --config-file ../../.babelrc",
     "log-root": "echo $LERNA_ROOT_PATH"
   },
