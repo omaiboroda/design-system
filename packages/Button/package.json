@@ -1,6 +1,6 @@
 {
   "name": "omaiboroda-design-system-button",
-  "version": "0.0.1",
+  "version": "0.0.7",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
