@@ -2,7 +2,7 @@
   "name": "omaiboroda-design-system-h1",
   "version": "0.0.3",
   "description": "",
-  "main": "build.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

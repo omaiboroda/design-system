@@ -15,7 +15,9 @@
     "lerna": "^3.4.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "lerna exec -- babel src -d dist --config-file ../../.babelrc",
+    "log-root": "echo $LERNA_ROOT_PATH"
   },
   "repository": {
     "type": "git",
