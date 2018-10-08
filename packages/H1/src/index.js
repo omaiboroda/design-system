@@ -8,6 +8,6 @@ const style = {
   }
 }
 
-const H1 = ({ classes, children }) => <h1 className={{classes.header}}>{children}</h1>;
+const H1 = ({ classes, children }) => <h1 className={classes.header}>{children}</h1>;
 
 export default injectSheet(style)(H1);
