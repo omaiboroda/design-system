@@ -11,5 +11,8 @@
   "license": "ISC",
   "peerDependencies": {
     "react": "^16.5.2"
+  },
+  "dependencies": {
+    "react-jss": "^8.6.1"
   }
 }

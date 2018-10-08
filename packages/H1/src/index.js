@@ -1,5 +1,13 @@
 import React from 'react';
+import injectSheet from 'react-jss'
 
-const H1 = () => <h1>Header</h1>;
+const style = {
+  header: {
+    border: '1px solid orange',
+    color: 'darkblue'
+  }
+}
 
-export default H1;
+const H1 = ({ classes, children }) => <h1 className={{classes}}>{children}</h1>;
+
+export default injectSheet(style)(H1);
