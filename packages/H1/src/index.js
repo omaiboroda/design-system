@@ -4,7 +4,8 @@ import injectSheet from 'react-jss'
 const style = {
   header: {
     border: '1px solid orange',
-    color: 'darkblue'
+    color: 'darkblue',
+    backgroundColor: 'green',
   }
 }
 
